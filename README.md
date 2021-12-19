@@ -8,7 +8,7 @@ Run `expo install with-rn-bluetooth-classic`(recommended) or `npm i --save with-
 
 ```
 "plugins": [
-      ["with-bluetooth-classic",
+      ["with-rn-bluetooth-classic",
         {
           "peripheralUsageDescription": "Allow myDevice to check bluetooth peripheral info",
           "alwaysUsageDescription": "Allow myDevice to always use bluetooth info",

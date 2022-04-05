@@ -23,7 +23,7 @@ Run `expo install with-rn-bluetooth-classic`(recommended) or `npm i --save with-
 
 # Note
 
-This plugin was originally intended for usage with Expo [dev clients](https://docs.expo.dev/development/getting-started/). Expo Go is not sufficient because it doesn't include the native modules in `react-native-bluetooth-classic`. 
+This plugin was originally intended for usage with Expo [dev clients](https://docs.expo.dev/development/introduction/). Expo Go is not sufficient because it doesn't include the native modules in `react-native-bluetooth-classic`. 
 
 # Contributing
 

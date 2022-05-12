@@ -46,6 +46,9 @@ const withAndroidBLC : ConfigPlugin<any> = (config, options = {}) => {
         'android.permission.BLUETOOTH',
         'android.permission.BLUETOOTH_ADMIN',
         'android.permission.ACCESS_FINE_LOCATION',
+        'android.permission.BLUETOOTH_CONNECT',
+        'android.permission.BLUETOOTH_SCAN',
+        'android.permission.BLUETOOTH_ADVERTISE',
       ]);
     return config
 }

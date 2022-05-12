@@ -1,6 +1,6 @@
 {
   "name": "with-rn-bluetooth-classic",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Config plugin for auto configuring react-native-bluetooth-classic on Expo",
   "main": "plugin/lib",
   "scripts": {

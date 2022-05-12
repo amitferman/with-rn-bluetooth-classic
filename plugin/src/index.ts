@@ -41,6 +41,9 @@ const withIosBLC : ConfigPlugin<PluginProps> = (config, { peripheralUsageDescrip
 //  > BLUETOOTH
 //  > BLUETOOTH_ADMIN
 //  > ACCESS_FINE_LOCATION
+//  > BLUETOOTH_CONNECT
+//  > BLUETOOTH_SCAN
+//  > BLUETOOTH_ADVERTISE
 const withAndroidBLC : ConfigPlugin<any> = (config, options = {}) => {
     config = AndroidConfig.Permissions.withPermissions(config, [
         'android.permission.BLUETOOTH',
